@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SocialLogin</string>
+    <string name="login">Entrar</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="signup">Criar nova conta</string>
+    <string name="password">Senha</string>
+    <string name="password_warning">Senha deve ter mais de 4 caracteres</string>
+    <string name="email_warning">Email inválido</string>
+    <string name="login_succeeded">Login efetuado com sucesso</string>
+    <string name="email">Email</string>
+</resources>
