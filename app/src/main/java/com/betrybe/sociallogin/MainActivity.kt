@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         botaoEntrar.setOnClickListener{
             validarEmail()
+            validarSenha()
         }
     }
 
@@ -54,6 +55,15 @@ class MainActivity : AppCompatActivity() {
             campoEmail.error = "Email inválido"
         } else {
             campoEmail.error = ""
+        }
+    }
+
+    private fun validarSenha() {
+        val senha = campoSenha.editText?.text.toString()
+        if (senha.length <= 4) {
+            campoSenha.error = "Senha deve ter mais de 4 caracteres"
+        } else {
+            campoSenha.error = ""
         }
     }
 }
