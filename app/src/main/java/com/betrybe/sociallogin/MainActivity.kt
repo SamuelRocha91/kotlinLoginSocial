@@ -41,5 +41,19 @@ class MainActivity : AppCompatActivity() {
             }
             false
         }
+
+        botaoEntrar.setOnClickListener{
+            validarEmail()
+        }
+    }
+
+    private fun validarEmail() {
+        val inputText = campoEmail.editText?.text.toString()
+        val regex = Regex("^[A-Za-z0-9.]+@[A-Za-z]+\\.[A-Za-z]+$")
+        if (!regex.matches(inputText)) {
+            campoEmail.error = "Email inválido"
+        } else {
+            campoEmail.error = ""
+        }
     }
 }
