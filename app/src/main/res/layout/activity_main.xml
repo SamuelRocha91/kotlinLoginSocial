@@ -67,7 +67,17 @@
                 android:layout_height="wrap_content"
                 android:inputType="text|textPassword"
                 android:textSize="18sp" />
-
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:enabled="false"
+            android:paddingTop="6dp"
+            android:text="@string/Entrar"
+            android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
