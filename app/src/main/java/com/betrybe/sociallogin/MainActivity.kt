@@ -6,6 +6,7 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
@@ -43,27 +44,35 @@ class MainActivity : AppCompatActivity() {
         }
 
         botaoEntrar.setOnClickListener{
-            validarEmail()
-            validarSenha()
+            val email = validarEmail() && campoEmail.editText?.text.toString().isNotEmpty()
+            val senha = validarSenha() && campoSenha.editText?.text.toString().isNotEmpty()
+
+            if ( email && senha ) {
+                Snackbar.make(botaoEntrar , R.string.text_label, Snackbar.LENGTH_LONG).show()
+            }
         }
     }
 
-    private fun validarEmail() {
+    private fun validarEmail(): Boolean {
         val inputText = campoEmail.editText?.text.toString()
         val regex = Regex("^[A-Za-z0-9.]+@[A-Za-z]+\\.[A-Za-z]+$")
         if (!regex.matches(inputText)) {
             campoEmail.error = "Email inválido"
+            return false
         } else {
             campoEmail.error = ""
+            return true
         }
     }
 
-    private fun validarSenha() {
+    private fun validarSenha(): Boolean {
         val senha = campoSenha.editText?.text.toString()
         if (senha.length <= 4) {
             campoSenha.error = "Senha deve ter mais de 4 caracteres"
+            return false
         } else {
             campoSenha.error = ""
+            return true;
         }
     }
 }

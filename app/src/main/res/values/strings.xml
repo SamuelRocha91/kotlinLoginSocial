@@ -14,4 +14,5 @@
     <string name="Entrar">Entrar</string>
     <string name="recuperar_senha">Esqueceu a senha?</string>
     <string name="criar_conta">Criar nova conta</string>
+    <string name="text_label">Login efetuado com sucesso</string>
 </resources>
