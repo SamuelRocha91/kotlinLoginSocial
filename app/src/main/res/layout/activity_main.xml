@@ -79,5 +79,15 @@
             android:paddingTop="6dp"
             android:text="@string/Entrar"
             android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/forgot_password_button"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="@string/recuperar_senha"
+            android:textColor="#006D3E"
+            android:textColorLink="#4BB14F" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
