@@ -3,6 +3,7 @@
 
 Este projeto é uma aplicação Android que demonstra a implementação de um formulário de login com validação de entrada e feedback para o usuário. Desenvolvido utilizando Kotlin e a biblioteca Material Design, o aplicativo inclui funcionalidades básicas como validação de email e senha, e manipulação de eventos em campos de texto.
 
+![Preview da aplicação](./gifs/login.gif)
 ## Funcionalidades
 
 - **Validação de Email e Senha**: Verifica se o email está no formato correto e se a senha tem mais de 4 caracteres.
