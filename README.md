@@ -1,5 +1,7 @@
 
-# Login Application
+# <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" />  Login Application <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" />
+
+## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/kotlinVirtualMenu) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_ar.md)
 
 Este projeto é uma aplicação Android que demonstra a implementação de um formulário de login com validação de entrada e feedback para o usuário. Desenvolvido utilizando Kotlin e a biblioteca Material Design, o aplicativo inclui funcionalidades básicas como validação de email e senha, e manipulação de eventos em campos de texto.
 
@@ -33,4 +35,7 @@ Este projeto é uma aplicação Android que demonstra a implementação de um fo
 
 3. Compile e execute o aplicativo em um emulador ou dispositivo Android.
 
----
+## Outros projetos:
+
+- 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu)
+-  ☀️ [Weather App](https://github.com/SamuelRocha91/kotlinWeatherApp)
